@@ -1,3 +1,11 @@
+*:focus {
+  box-shadow: 0 0 0 2px #9e00ff !important;
+}
+
+#tabs-2--tabpanel-5{
+  text-align: center !important;
+}
+
 .App {
   text-align: center;
 }
