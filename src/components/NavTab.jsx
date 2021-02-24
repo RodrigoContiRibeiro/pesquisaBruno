@@ -57,7 +57,7 @@ const navTab = () => {
               p={4}
               key={index}
             >
-              {tab.content || <Button justifySelf={'center'} onClick={() => onOpen()}>Clique</Button>}
+              {tab.content || <Button size={'lg'} className={'tableButton'} onClick={() => onOpen()}>Clique</Button>}
             </TabPanel>
           ))}
         </TabPanels>
